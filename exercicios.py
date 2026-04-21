@@ -1,9 +1,11 @@
+import math
+
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-num1 = int(input("Digite o primeiro número inteiro: "))
-num2 = int(input("Digite o segundo número inteiro: "))
-soma = num1 + num2
-print(f"A soma dos dois números é: {soma}")
+#num1 = int(input("Digite o primeiro número inteiro: "))
+#num2 = int(input("Digite o segundo número inteiro: "))
+#soma = num1 + num2
+#print(f"A soma dos dois números é: {soma}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
@@ -17,6 +19,11 @@ print(f"A soma dos dois números é: {soma}")
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+raio = float(input("digitie o raio:"))
+area = math.pi * raio ** 2
+print(f"A área do círculo é: {area:.2f}")
+
 
 # #### Strings (`str`)
 
